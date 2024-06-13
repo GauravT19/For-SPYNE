@@ -6,55 +6,6 @@ Backend Assignment
 
 This is a FastAPI-based social media application that allows users to register, post discussions, comment on discussions, like posts, and use hashtags.
 
-## Project Structure
-
-project/
-│
-├── app/
-│   ├── main.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── user.py
-│   │   ├── discussion.py
-│   │   ├── comment.py
-│   │   ├── like.py
-│   │   └── hashtag.py
-│   │
-│   ├── routers/
-│   │   ├── __init__.py
-│   │   ├── auth.py           
-│   │   ├── users.py
-│   │   ├── discussions.py
-│   │   ├── comments.py
-│   │   ├── likes.py
-│   │   └── hashtags.py
-│   │
-│   ├── schemas/
-│   │   ├── __init__.py
-│   │   ├── token.py          
-│   │   ├── user.py
-│   │   ├── discussion.py
-│   │   ├── comment.py
-│   │   ├── like.py
-│   │   └── hashtag.py
-│   │
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── database.py
-│   │   ├── config.py
-│   │   └── auth.py           
-│   │
-│   └── core/
-│       ├── __init__.py
-│       └── security.py      
-│
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-├── postman_collection.json
-└── README.md
-
-
 ## Installation
 
 1. Clone the repository
