@@ -1,7 +1,7 @@
 from passlib.context import CryptContext
 
 # Secret key to sign JWT tokens
-SECRET_KEY = "your-secret-key"  # Update with a secure random key
+SECRET_KEY = "local"  
 ALGORITHM = "HS256"
 
 # Create a CryptContext instance with bcrypt
