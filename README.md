@@ -1,4 +1,3 @@
-# For-SPYNE
 Backend Assignment
 # Social Media App
 
